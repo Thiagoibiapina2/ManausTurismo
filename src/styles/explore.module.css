@@ -1,0 +1,36 @@
+.explore {
+  padding-top: 6rem;
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.article {
+  margin-bottom: 6rem;
+}
+
+.article h2 {
+  font-size: clamp(1rem, 4vw, 36px);;  
+  margin-bottom: 3rem;
+}
+
+.article p {
+    margin-bottom: 1rem;
+    font-size: clamp(1rem, 4vw, 1.6rem);;
+    line-height: 3.4rem;
+    color: #333333;
+    text-align: justify;
+}
+
+@media (max-width: 450px) {
+.article p {
+    line-height: 3rem;
+    text-align: justify;
+}
+}
+
+.article img {
+  margin-bottom: 3rem;
+  max-width: 100%;
+  height: auto; 
+}

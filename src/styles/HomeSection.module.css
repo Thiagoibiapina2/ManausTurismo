@@ -1,0 +1,114 @@
+.home {
+  background: url(../../public/assets/home.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+@media (max-width: 450px) {
+  .home {
+    height: 90vh;
+}
+}
+
+.home_card {
+  position: relative;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 27px;
+  color: #EFAA78;
+  padding: 1.9rem 0 2.4rem 0;
+  position: relative;
+  left: 6%;
+  text-transform: uppercase;
+}
+
+@media (max-width: 450px){
+.brand {
+    left: 0%;
+    text-align: center;
+}
+}
+
+.header {
+  position: relative;
+}
+
+.nav {
+  position: absolute;
+  right: 15%;
+  bottom: 55%;
+  transform: translateY(50%);
+}
+
+@media (max-width: 450px) {
+.nav {
+    position: absolute;
+    bottom: 15%;
+    left: 0%;
+    text-align: center;
+    width: 100%;
+}
+}
+
+
+
+.home_btn a {
+  color: white;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+.home_btn a:hover {
+  color: #EFAA78
+}
+
+.info_home {
+  position: relative;
+  left: 15%;
+  transform: translateY(50%);
+  color: #fff;
+  height: 50%;
+  max-width: 70%;
+}
+
+.info_home h1 {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.info_home p {
+  font-family: 'Open Sans';
+  font-size: clamp(0.6rem, 2vw, 1.4rem);
+  max-width: 56rem;
+}
+
+.info_home a {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  background: #EFAA78;
+  padding: 0.6rem 2.6rem;
+  border-radius: 5px;
+  position: relative;
+  top: 2.3rem;
+}
+
+@media (max-width: 480px){
+  .info_home h1 {
+      font-size: 1.8rem;
+  }
+  }
+
+@media (max-width: 600px){
+.info_home a {
+    font-size: 12px;
+    padding: 0.4rem 1.5rem;
+}
+}
+
