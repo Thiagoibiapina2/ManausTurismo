@@ -14,5 +14,10 @@ Hooks
 
 <br>
 
+<Image
+  src="./public/homeSection.png"
+  alt="Manaus turismo"
+  width={500}
+  height={500}
+/>
 
-![manaus turismo](image.png)
