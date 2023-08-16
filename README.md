@@ -1,5 +1,5 @@
 Ver projeto
-Visite o site em: [Manaus-Turismo]('site')
+Visite o site em: [Manaus-Turismo]('https://manaus-turismo.vercel.app')
 
 ## Descrição
 
