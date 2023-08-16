@@ -1,5 +1,5 @@
 Ver projeto
-Visite o site em: [Manaus-Turismo]('https://manaus-turismo.vercel.app')
+Visite o site em: [Manaus-Turismo](https://manaus-turismo.vercel.app)
 
 ## Descrição
 
@@ -15,7 +15,7 @@ Hooks
 <br>
 
 <Image
-  src="./public/assets/homeSection.png"
+  src="./public/homeSection.png"
   alt="Manaus turismo"
   width={500}
   height={500}
