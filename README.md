@@ -16,7 +16,7 @@ Hooks
 
 <Image
   src="./public/assets/homeSection.png"
-  alt="Texto alternativo da imagem"
+  alt="Manaus turismo"
   width={500}
   height={500}
 />
